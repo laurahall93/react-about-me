@@ -8,7 +8,7 @@ function MainContent(): JSX.Element {
 
   const numOne = 3;
   const numTwo = 6;
-  const fullName = "Laura Hall"
+  const fullName = "Laura Hall";
 
   const threeFavouriteFoods = ["Chocolate", "Crisps", "Peperoni Pizza"];
 
@@ -22,7 +22,10 @@ function MainContent(): JSX.Element {
         </p>
       </section>
       <section>
-        <h2>Musing of the month ({location.city}, March 2003), its bit wetter than I like. </h2>
+        <h2>
+          Musing of the month ({location.city}, March 2003), its bit wetter than
+          I like.{" "}
+        </h2>
         <p>
           Q: How much wood could a woodchuck chuck if a woodchuck could chuck
           wood?
